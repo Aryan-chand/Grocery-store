@@ -1,5 +1,4 @@
 $(function () {
-    //Json data by api call for order table
     $.get(orderListApiUrl, function (response) {
         if(response) {
             var table = '';
