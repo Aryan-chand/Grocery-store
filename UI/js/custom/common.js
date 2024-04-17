@@ -56,8 +56,3 @@ function productDropParser(product) {
         name : product.title
     }
 }
-
-//To enable bootstrap tooltip globally
-// $(function () {
-//     $('[data-toggle="tooltip"]').tooltip()
-// });
