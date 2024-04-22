@@ -2310,11 +2310,6 @@ button.close:focus {
     color: #ffffff;
 }
 
-.sidebar-nav li {
-    /*line-height: 40px;*/
-    /*text-indent: 20px;*/
-}
-
 .sidebar-nav li a {
     color: #999999;
     display: block;
