@@ -2339,8 +2339,6 @@ button.close:focus {
 #main_icon {
     float: right;
     width: 0;
-    /*padding-right: 65px;*/
-    /*padding-top:20px;*/
 }
 
 .sub_icon {
