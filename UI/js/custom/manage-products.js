@@ -16,7 +16,6 @@ var productModal = $("#productModal");
         });
     });
 
-    // Save Product
     $("#saveProduct").on("click", function () {
         var data = $("#productForm").serializeArray();
         var requestPayload = {
