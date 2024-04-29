@@ -1,7 +1,6 @@
 var productPrices = {};
 
 $(function () {
-    //Json data by api call for order table
     $.get(productListApiUrl, function (response) {
         productPrices = {}
         if(response) {
