@@ -60,7 +60,6 @@ var productModal = $("#productModal");
     });
 
     productModal.on('show.bs.modal', function(){
-        //JSON data by API call
         $.get(uomListApiUrl, function (response) {
             if(response) {
                 var options = '<option value="">--Select--</option>';
